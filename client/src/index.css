@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.mySwiper {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  
+  color:#fff;
+  /* height: calc((100% - 10px) / 2) !important; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes moveBox {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 30vh;
+    left: 20vw;
+  }
+  50% {
+    top: 50vh;
+    left: 50vw;
+  }
+  75% {
+    top: 70vh;
+    left: 80vw;
+  }
+  100% {
+    top: 100vh;
+    left: 100vw;
+  }
+}
+
+.box {
+  position: absolute;
+  transition: top 0.5s ease-in-out, left 0.5s ease-in-out;
+}
