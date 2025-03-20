@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from './Rating';
 
 const ProductCard = ({ product }) => {
   return (
@@ -20,12 +21,12 @@ const ProductCard = ({ product }) => {
         
         {/* Product Rating */}
         <div className="flex items-center mt-2">
-          <span className="text-yellow-500">{/* Add stars dynamically */}</span>
+          <span className="text-yellow-500"><Rating rating={product.rating} /></span>
           <span className="text-gray-600 text-sm ml-2">({product.rating} reviews)</span>
         </div>
         
         {/* Product Price */}
-        <p className="text-xl font-bold text-gray-900 mt-2">${product.price}</p>
+        <p className="text-xl font-bold text-gray-900 mt-2">£{product.price}</p>
 
         {/* Product Description */}
         <p className="text-gray-600 text-sm mt-2">{product.description}</p>
