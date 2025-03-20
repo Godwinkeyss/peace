@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="sm:text-4xl text-3xl font-bold pb-1 text-center">
           Boutique CIC
         </h1>
-        <p className="text-2xl my-2 text-gray-400">
+        <p className="lg:text-2xl font-bold text-[16px] whitespace-nowrap my-2 text-gray-400">
           {' '}
           – Sustainable Bridal & Fashion for Every Woman
         </p>
