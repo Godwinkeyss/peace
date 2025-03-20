@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
       />
 
       {/* Product Info Section */}
-      <div className="p-4">
+      <div className="p-4 mx-2">
         {/* Product Title */}
         <h2 className="text-2xl font-semibold text-gray-800">{product.name}</h2>
         
