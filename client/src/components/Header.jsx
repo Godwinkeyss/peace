@@ -20,8 +20,8 @@ const Header = () => {
           />
         </Link>
         <div className="flex animate-marquee">
-          <h3 className="text-amber-900">Empowering Women, Elevating Style!</h3>
-          <span className="text-amber-900">@Women;s community boutique</span>
+          <h3 className="text-amber-900 text-[14px]">Empowering Women, Elevating Style!</h3>
+          <span className="text-amber-900 text-[14px]">@Women;s community boutique</span>
         </div>
         <div className="inline-block animate-marque">
           <h3 className="text-amber-500">
