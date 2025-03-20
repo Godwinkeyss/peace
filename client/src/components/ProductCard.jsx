@@ -3,7 +3,7 @@ import Rating from './Rating';
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="w-[400px] rounded-lg shadow-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300">
+    <div className="w-[400px] rounded-lg shadow-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300 mx-3">
       {/* Image Section */}
       <img 
         src={product.image} 
@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
       />
 
       {/* Product Info Section */}
-      <div className="p-4 mx-2">
+      <div className="p-4 ">
         {/* Product Title */}
         <h2 className="text-2xl font-semibold text-gray-800">{product.name}</h2>
         
