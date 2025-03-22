@@ -6,14 +6,15 @@ import Animation from '../components/Animation'
 import Product from '../components/Product'
 import About from '../components/About'
 import Abouts from '../components/Abouts'
+import Shein from '../components/Shein'
 
 const HomeScreen = () => {
   return (
     <div className=''>
       <Header />
-      {/* <Slider /> */}
-      
-      <Carousel />
+   
+      <Shein />
+      {/* <Carousel /> */}
       <Abouts />
       <Product />
     </div>
