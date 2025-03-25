@@ -132,3 +132,9 @@ body {
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
+.health{
+  background-image:url('images/health.jpg');
+  /* height:100%; */
+  object-fit: cover;
+
+}

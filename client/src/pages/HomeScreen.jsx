@@ -7,16 +7,21 @@ import Product from '../components/Product'
 import About from '../components/About'
 import Abouts from '../components/Abouts'
 import Shein from '../components/Shein'
+import Sheina from '../components/Sheina'
+import Visit from '../components/Visit'
+import Health from '../components/Health'
 
 const HomeScreen = () => {
   return (
     <div className=''>
       <Header />
-   
+     {/* <Sheina /> */}
       <Shein />
       {/* <Carousel /> */}
       <Abouts />
       <Product />
+      <Visit />
+      <Health />
     </div>
   )
 }
