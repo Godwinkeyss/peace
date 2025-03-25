@@ -3,10 +3,10 @@ import React from 'react';
 const Health = () => {
   return (
     <>
-      <div className="flex items-center w-screen flex-col mb-20 ">
-        <div className="top flex items-center flex-col justify-center   w-full md:w-1/3">
+      <div className="flex items-center w-screen flex-col lg:mb-20 overflow-x:hidden">
+        <div className="top flex items-center flex-col justify-center   w-full lg:w-1/3">
           <h1>Health & Wellbeing</h1>
-          <p className="text-center px-20 text-gray-500 mb-4 ">
+          <p className="text-center lg:px-20 px-10 text-[14px] text-gray-500 mb-4 ">
             At Women’s Community Boutique, our commitment to health and
             wellbeing is at the core of everything we do. We understand the
             diverse dimensions of women’s health—physical, mental, and
@@ -22,13 +22,21 @@ const Health = () => {
           </button>
           <img src="images/sv.svg" className=" w-10" />
         </div>
-        <div className="relative mt-4 h-[60vh] w-screen health">
+        <div className="relative flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh]  w-full health">
           {/* <img
             src="images/health.jpg"
             alt="Health Image"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="lg:absolute inset-0 w-full h-full object-cover"
           /> */}
         </div>
+        <div className="relative flex items-center justify-center mt-4 lg: h-[30vh] size-16 lg:hidden md:hidden w-full overflow-x:hidden">
+          <img
+            src="images/health.jpg"
+            alt="Health Image"
+            className="lg:absolute inset-0 w-full h-full size-32 object-cover"
+          />
+        </div>
+        
       </div>
     </>
   );

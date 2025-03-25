@@ -2,11 +2,11 @@ import React from 'react';
 
 const Visit = () => {
   return (
-    <div className="lg:flex lg:flex-row items-center  md:flex-col my-32 gap-20">
+    <div className="lg:flex lg:flex-row items-center  md:flex-col lg:my-32 gap-20 overflow-x:hidden">
       <div>
         <img src="images/visit.jpg" />
       </div>
-      <div className="flex items-start justify-center flex-col px-8 py-6">
+      <div className="flex items-start justify-center flex-col px-10 py-6">
         <div className='flex flex-col p-0'>
           <h1 className="lg:text-4xl text-3xl font-500 underline">
             Visit our Boutique
