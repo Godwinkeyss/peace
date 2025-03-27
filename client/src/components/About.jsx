@@ -25,7 +25,7 @@ const About = () => {
         </p>
        
         <button className="text-white bg-black rounded-lg p-3 text-[14px] mt-7">
-        ✨ Discover More ✨ 
+         Discover More
         </button>
         <img
           src="images/sv.svg"

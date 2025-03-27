@@ -37,7 +37,7 @@ const Abouts = () => {
             vibrant community activities.
           </p>
           <button className="text-white bg-black rounded-lg p-3 text-[14px] my-2">
-            ✨ Discover More ✨
+            Discover More
           </button>
           <img
             src="images/sv.svg"

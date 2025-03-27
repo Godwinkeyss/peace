@@ -22,7 +22,7 @@ const Health = () => {
           </button>
           <img src="images/sv.svg" className=" w-10" />
         </div>
-        <div className="relative lg:flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh] w-full healths bg-[url('images/health.jpg')] inset-0 bg-top bg-cover overflow-x:hidden"></div>
+        <div className="relative flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh] w-full healths bg-[url('images/health.jpg')] inset-0 bg-top bg-cover overflow-x:hidden"></div>
         {/* <div className="relative flex items-center justify-center mt-4 lg: h-[30vh] size-16 lg:hidden  w-full overflow-x:hidden">
           <img
             src="images/health.jpg"
