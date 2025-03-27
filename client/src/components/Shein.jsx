@@ -11,10 +11,12 @@ const Shein = () => {
   ];
 
   // Function to shuffle images randomly for the right-side grid
+  // const shuffleImagess = (array) => {
+  //   return [...array].sort(() => Math.random() - 0.5);
+  // };
   const shuffleImages = (array) => {
-    return [...array].sort(() => Math.random() - 0.5);
+    return [...array.slice(1), array[0]]; // Moves the first item to the last position
   };
-
   const [shuffledImages, setShuffledImages] = useState(shuffleImages(images));
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -52,7 +54,7 @@ const Shein = () => {
         {shuffledImages.map((image, index) => (
           <div
             key={index}
-            className={`bg-blue-500 w-full aspect-w-16 aspect-h-9 rounded-lg overflow-hidden transition-transform duration-300 ${
+            className={`bg-gray-50 w-full aspect-w-16 aspect-h-9 rounded-lg overflow-hidden transition-transform duration-300 ${
               images[currentImageIndex] === image ? "scale-110 border-4 border-gray-400 shadow-lg" : ""
             }`}
           >
