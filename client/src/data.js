@@ -3,7 +3,7 @@ const data = {
       // Electronics
       {
         id: 1,
-        name: 'Smartphone X',
+        name: 'Ethereal Grace',
         slug: 'smartphone-x',
         category: 'Electronics',
         brand: 'TechBrand',
@@ -16,7 +16,7 @@ const data = {
       },
       {
         id: 2,
-        name: 'Wireless Earbuds',
+        name: 'Timeless Bloom',
         slug: 'wireless-earbuds',
         category: 'Electronics',
         brand: 'AudioMax',
@@ -29,7 +29,7 @@ const data = {
       },
       {
         id: 3,
-        name: '4K Ultra TV',
+        name: 'Celestial Whisper',
         slug: '4k-ultra-tv',
         category: 'Electronics',
         brand: 'VisionPlus',
@@ -38,13 +38,13 @@ const data = {
         countInStock: 20,
         isFeatured: true,
         newArrival: true,
-        image: 'images/eng3.jpg',
+        image: 'images/pro6.jpg',
       },
   
       // Fashion - Men
       {
         id: 4,
-        name: 'Leather Jacket',
+        name: 'Radiant Elegance',
         slug: 'leather-jacket',
         category: 'Fashion - Men',
         brand: 'UrbanStyle',
@@ -53,11 +53,11 @@ const data = {
         countInStock: 15,
         isFeatured: true,
         newArrival: false,
-        image: 'images/ind.jpeg',
+        image: 'images/pro5.jpg',
       },
       {
         id: 5,
-        name: 'Running Shoes',
+        name: 'Enchanted Serenity',
         slug: 'running-shoes',
         category: 'Fashion - Men',
         brand: 'Speedster',
@@ -66,13 +66,13 @@ const data = {
         countInStock: 40,
         isFeatured: false,
         newArrival: true,
-        image: 'images/ind2.jpeg',
+        image: 'images/pro4.jpg',
       },
   
       // Fashion - Women
       {
         id: 6,
-        name: 'Evening Gown',
+        name: 'Opulent Charm',
         slug: 'evening-gown',
         category: 'Fashion - Women',
         brand: 'EleganceWear',
@@ -81,11 +81,11 @@ const data = {
         countInStock: 10,
         isFeatured: true,
         newArrival: false,
-        image: 'images/ind3.jpeg',
+        image: 'images/pro3.jpg',
       },
       {
         id: 7,
-        name: 'Designer Handbag',
+        name: 'Luminous Belle',
         slug: 'designer-handbag',
         category: 'Fashion - Women',
         brand: 'ChicBags',
@@ -94,13 +94,13 @@ const data = {
         countInStock: 25,
         isFeatured: false,
         newArrival: true,
-        image: 'images/nig3.jpg',
+        image: 'images/pro1.jpg',
       },
   
       // Beauty
       {
         id: 8,
-        name: 'Perfume Set',
+        name: 'Ever After Gown',
         slug: 'perfume-set',
         category: 'Beauty',
         brand: 'Scentique',
@@ -109,7 +109,7 @@ const data = {
         countInStock: 35,
         isFeatured: true,
         newArrival: true,
-        image: 'images/nig4.jpg',
+        image: 'images/pro2.jpg',
       },
       {
         id: 9,
@@ -122,7 +122,7 @@ const data = {
         countInStock: 45,
         isFeatured: false,
         newArrival: false,
-        image: 'images/nig5.jpg',
+        image: 'images/pro2.jpg',
       },
   
       // Home Decor
@@ -137,7 +137,7 @@ const data = {
         countInStock: 60,
         isFeatured: false,
         newArrival: true,
-        image: 'images/nig6.jpg',
+        image: 'images/pro1.jpg',
       },
       {
         id: 11,
