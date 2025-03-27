@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-black w-screen h-[60vh] text-white flex items-center  flex-col px-52 py-32">
+    <div className="bg-black w-screen  text-white flex items-center  flex-col lg:px-52 lg:py-32 px-10 pb-20 ">
       <div className='flex items-center justify-between flex-col gap-15'>
         <div>
           <img
@@ -10,12 +10,12 @@ const Footer = () => {
           />
         </div>
         <div>
-          <h1 className='text-2xl'>Our Boutique is open: Wednesday – Friday 10am – 4pm</h1>
+          <h1 className='lg:text-2xl text-[16px] text-center'>Our Boutique is open: Wednesday – Friday 10am – 4pm</h1>
         </div>
-        <div className='flex items-center justify-between gap-10'>
-          <div className='flex flex-col gap-4 items-center'>
+        <div className='flex items-center justify-between gap-10 flex-col lg:flex-row'>
+          <div className='flex flex-col lg:gap-4 items-center'>
             <h4>About</h4>
-            <p className='w-[30%] text-center text-[14px]'>
+            <p className='lg:w-[30%] text-center lg:text-[14px] text-[14px] '>
               Women’s Community Boutique CIC Limited by Guarantee Registered No:
               14428601 Registered in England
             </p>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div className='flex flex-col gap-4 items-center'>
             <h4>Contact</h4>
-            <p className='w-[30%] text-center text-[14px]'>
+            <p className='lg:w-[30%] text-center lg:text-[14px]'>
               90 Coronation Street, Sunderland SR1 2HE poppy@wcb.org.uk Tel:
               07716737812
             </p>
