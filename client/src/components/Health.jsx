@@ -4,9 +4,9 @@ const Health = () => {
   return (
     <>
       <div className="flex items-center w-screen flex-col lg:mb-20 overflow-x-hidden">
-        <div className="top flex items-center flex-col justify-center   w-full lg:w-1/3">
+        <div className="top flex items-center flex-col justify-center w-full lg:w-1/3">
           <h1>Health & Wellbeing</h1>
-          <p className="text-center lg:px-20 px-10 text-[14px] text-gray-500 mb-4 ">
+          <p className="text-center lg:px-20 px-10 text-[14px] text-gray-500 mb-4">
             At Women’s Community Boutique, our commitment to health and
             wellbeing is at the core of everything we do. We understand the
             diverse dimensions of women’s health—physical, mental, and
@@ -18,16 +18,16 @@ const Health = () => {
             strength along the way….
           </p>
           <button className="bg-black text-white py-2 px-3 rounded mb-4">
-            click here to read more...
+            Click here to read more...
           </button>
-          <img src="images/sv.svg" className=" w-10" />
+          <img src="images/sv.svg" className="w-10" alt="Icon" />
         </div>
-        <div className="relative flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh] w-full healths bg-[url(images/health.jpg)] inset-0 bg-top bg-cover overflow-x-hidden"></div>
-        {/* <div className="relative flex items-center justify-center mt-4 lg: h-[30vh] size-16 lg:hidden  w-full overflow-x:hidden">
+        <div className="relative flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh] w-full healths bg-[url(/images/health.jpg)] bg-top bg-cover overflow-x-hidden"></div>
+        {/* <div className="relative flex items-center justify-center mt-4 lg:h-[30vh] w-16 lg:hidden w-full overflow-x-hidden">
           <img
             src="images/health.jpg"
             alt="Health Image"
-            className="lg:absolute inset-0 w-full h-full size-32 object-cover"
+            className="lg:absolute inset-0 w-32 h-32 object-cover"
           />
         </div> */}
       </div>
