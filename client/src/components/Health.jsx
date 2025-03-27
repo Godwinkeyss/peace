@@ -22,14 +22,14 @@ const Health = () => {
           </button>
           <img src="images/sv.svg" className=" w-10" />
         </div>
-        <div className="relative flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh]  w-full health">
+        <div className="relative lg:flex items-center justify-center mt-4 lg:h-[70vh] h-[30vh] hidden  w-full health">
           {/* <img
             src="images/health.jpg"
             alt="Health Image"
             className="lg:absolute inset-0 w-full h-full object-cover"
           /> */}
         </div>
-        <div className="relative flex items-center justify-center mt-4 lg: h-[30vh] size-16 lg:hidden md:hidden w-full overflow-x:hidden">
+        <div className="relative flex items-center justify-center mt-4 lg: h-[30vh] size-16 lg:hidden  w-full overflow-x:hidden">
           <img
             src="images/health.jpg"
             alt="Health Image"
