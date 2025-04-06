@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center overflow-x-hidden w-full p-2 box-border">
+    <div className="flex flex-col items-center justify-center overflow-x-hidden w-full p-2 box-border  ">
       <div className="flex items-center justify-center flex-col w-full md:w-1/2 overflow-hidden p-4 box-border">
         <h1 className="sm:text-4xl text-3xl p-1 font-bold text-center">
           Women’s Community

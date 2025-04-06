@@ -29,19 +29,19 @@ const Shein = () => {
   }, []);
 
   return (
-    <div className="flex w-screen h-[50vh] lg:h-[55vh] gap-3 lg:px-64">
+    <div className="flex w-screen md:w-screen h-[50vh] lg:h-[55vh] gap-3 lg:px-64 md:px-16px">
       {/* Left Section (Hidden on Large Screens) */}
-      <div className="left lg:hidden flex-col flex-[1] w-full hidden">
+      {/* <div className="left lg:hidden flex-col flex-[1] w-full  hidden">
         <div className="bg-radial-[at_50%_75%] flex-[1] relative h-full">
           <img src="images/shein1.webp" alt="Shein" />
           <div className="text-[16px] w-full py-3 text-black absolute top-80 left-0 rounded bg-pink-100 flex items-center">
             <img src="images/WCB-Logo-web-2-300x107.png" alt="Logo" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Middle Section (Main Slider) */}
-      <div className="middle flex-[2] bg-gray-200 w-full h-full flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
+      <div className="middle flex-[2] bg-gray-200 w-full  h-full flex items-center justify-center rounded-lg shadow-lg overflow-hidden">
         <img
           src={images[currentImageIndex]}
           className="w-full h-full object-cover transition-opacity duration-500"
@@ -50,7 +50,7 @@ const Shein = () => {
       </div>
 
       {/* Right Section (Randomized Grid with Scaling Effect) */}
-      <div className="right hidden lg:grid grid-cols-3 gap-2 flex-[1] w-full p-2">
+      <div className="right hidden lg:grid grid-cols-3 md:grid-cols-3 lg:grid-cols-2  xl:grid-cols-3 gap-2 flex-[1] w-full p-2">
         {shuffledImages.map((image, index) => (
           <div
             key={index}

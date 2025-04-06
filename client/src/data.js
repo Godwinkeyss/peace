@@ -12,7 +12,7 @@ const data = {
         countInStock: 30,
         isFeatured: true,
         newArrival: false,
-        image: 'images/eng.jpg',
+        image: 'images/com2-inst.jpg',
       },
       {
         id: 2,
@@ -25,7 +25,7 @@ const data = {
         countInStock: 50,
         isFeatured: false,
         newArrival: true,
-        image: 'images/eng2.jpg',
+        image: 'images/com6-inst.jpg',
       },
       {
         id: 3,
@@ -38,7 +38,7 @@ const data = {
         countInStock: 20,
         isFeatured: true,
         newArrival: true,
-        image: 'images/pro6.jpg',
+        image: 'images/com7-inst.jpg',
       },
   
       // Fashion - Men
@@ -53,7 +53,7 @@ const data = {
         countInStock: 15,
         isFeatured: true,
         newArrival: false,
-        image: 'images/pro5.jpg',
+        image: 'images/com8-inst.jpg',
       },
       {
         id: 5,
@@ -66,7 +66,7 @@ const data = {
         countInStock: 40,
         isFeatured: false,
         newArrival: true,
-        image: 'images/pro4.jpg',
+        image: 'images/com3-inst.jpg',
       },
   
       // Fashion - Women
@@ -81,7 +81,7 @@ const data = {
         countInStock: 10,
         isFeatured: true,
         newArrival: false,
-        image: 'images/pro3.jpg',
+        image: 'images/com4-inst.jpg',
       },
       {
         id: 7,
@@ -94,7 +94,7 @@ const data = {
         countInStock: 25,
         isFeatured: false,
         newArrival: true,
-        image: 'images/pro1.jpg',
+        image: 'images/com5-inst.jpg',
       },
   
       // Beauty

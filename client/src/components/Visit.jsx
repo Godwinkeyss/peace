@@ -2,9 +2,9 @@ import React from 'react';
 
 const Visit = () => {
   return (
-    <div className="lg:flex lg:flex-row items-center  md:flex-col lg:my-32 gap-20 overflow-x:hidden">
-      <div>
-        <img src="images/visit.jpg" />
+    <div className="lg:flex lg:flex-row items-center md:my-10 mt-10 md:flex-col lg:my-32 gap-20 overflow-x:hidden">
+      <div class=''>
+        <img src="images/visit.jpg" class='w-full' />
       </div>
       <div className="flex items-start justify-center flex-col px-10 py-6">
         <div className='flex flex-col p-0'>
@@ -39,9 +39,9 @@ const Visit = () => {
           <button className="bg-black text-white px-2 py-2 rounded">
             Visit Our Boutique
           </button>
-          <button className="bg-black text-white px-3 py-2 rounded  whitespace-nowrap">
+          {/* <button className="bg-black text-white px-3 py-2 rounded  whitespace-nowrap">
             Online Shop Coming soon
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

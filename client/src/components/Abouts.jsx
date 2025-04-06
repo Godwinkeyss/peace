@@ -6,11 +6,11 @@ const Abouts = () => {
   return (
     <>
     <About />
-    <div className="lg:flex lg:flex-row  items-center justify-center lg:mt-20  max-w-screen mx-2 ">
+    <div className="lg:flex lg:flex-row  items-center justify-center lg:mt-10 lg:mb-14  max-w-screen mx-2 ">
       {/* Left Section */}
       <div className="w-full lg:w-full h-[70vh] lg:h-[60vh] lg:flex flex flex-col lg:flex-row ">
         {/* About Slider */}
-        <div className="w-full lg:w-1/2 h-full">
+        <div className="w-full lg:w-1/2 h-full md:w-full">
           <AboutSlider />
         </div>
 

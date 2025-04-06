@@ -10,6 +10,7 @@ import Shein from '../components/Shein'
 import Sheina from '../components/Sheina'
 import Visit from '../components/Visit'
 import Health from '../components/Health'
+import Confidence from '../components/Confidence'
 import Footer from '../components/Footer'
 
 const HomeScreen = () => {
@@ -23,6 +24,7 @@ const HomeScreen = () => {
       <Product />
       <Visit />
       <Health />
+      <Confidence />
       <Footer />
     </div>
   )

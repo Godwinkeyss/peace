@@ -21,15 +21,15 @@ const Header = () => {
             />
           </Link>
           <div className="flex animate-marquee">
-            <h3 className="text-gray-700 bg-gray-200 p-2 rounded">
+            <h3 className="text-gray-700 bg-gray-200 px-8 py-2 rounded">
              Bridging Culture Building Confidence
             </h3>
           </div>
-          <div className="inline-block animate-marque">
+          {/* <div className="inline-block animate-marque">
             <h3 className="text-gray-700 bg-gray-100 p-2 rounded">
               Unite. Empower. Inspire. – Where Women Shine Together! ✨
             </h3>
-          </div>
+          </div> */}
           <div className="flex  text-4xl items-center ml-7 mt-6 gap-20 lg:hidden ">
             <IoMenuOutline
               className={!isOpen ? 'opacity-35' : 'opacity-0'}
